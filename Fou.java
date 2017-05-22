@@ -4,13 +4,13 @@ public class Fou extends Piece{
 		super(couleur, estPrise, abscisse, ordonnee);
 	}
 	
-	public void deplacer(int x, int y) throws DeplacementInvalideException{
+	public void deplacer(int x, int y){ /* throws DeplacementInvalideException{
 		if(Math.abs(x) != Math.abs(y))
 			throw new DeplacementInvalideException();
-		else{
+		else{*/
 			this.abscisse += x;
 			this.ordonnee += y;
-		}
+		//}
 	}
 
 }

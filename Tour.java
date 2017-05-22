@@ -4,13 +4,13 @@ public class Tour extends Piece {
 		super(couleur, estPrise, abscisse, ordonnee);
 	}
 	
-	public void deplacer(int x,int y) throws DeplacementInvalideException {
+	public void deplacer(int x,int y){/* throws DeplacementInvalideException {
 		if(x > 0 && y > 0){
 			throw new DeplacementInvalideException();
 	}
-		else{
+		else{*/
 			this.abscisse += x;
 			this.ordonnee += y;
-		}
+		//}
 	}
 }

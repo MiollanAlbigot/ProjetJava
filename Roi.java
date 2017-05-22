@@ -4,12 +4,12 @@ public class Roi extends Piece {
 		super(couleur, estPrise, abscisse, ordonnee);
 	}
 	
-	public void deplacer(int x, int y) throws DeplacementInvalideException{
+	public void deplacer(int x, int y){ /*throws DeplacementInvalideException{
 		if(Math.abs(x) > 1 && Math.abs(y) > 1)
 			throw new DeplacementInvalideException();
-		else{
+		else{*/
 			this.abscisse = x;
 			this.ordonnee = y;
-		}
+		//}
 	}
 }
